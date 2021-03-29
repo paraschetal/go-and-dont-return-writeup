@@ -13,7 +13,7 @@
 ![Result](screenshots/final-minio-unpatched-result.png)
 
 ### Results for fixed minio database:
-We do get 1 result from `admin-handlers.go` which based on our criteria and heuristics is a valid result (but may be discarded because of the call to `writeErrorResponseJSON` before the `return nil`?). I chose to keep it to keep the query generic enough:
+We do get 1 result from `admin-handlers-config-kv.go` which based on our criteria and heuristics is a valid result (but may be discarded because of the call to `writeErrorResponseJSON` before the `return nil`?). I chose to keep it to keep the query generic enough:
 ![Result](screenshots/final-minio-patched-result.png)
 
 ## Steps
